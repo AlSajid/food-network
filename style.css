@@ -20,10 +20,19 @@ section {
 
 input, textarea {
   width: 80%;
-  height: 64px;
-  margin: 16px;
+  height: 32px;
+
+  background-color: pink;
+  color: ;
+
+  border-radius: 16px;
+  border: 0px;
+
+  margin: 16px 0;
   padding:16px;
-  font-size: ;
+
+  font-size: 20px;
+  font-weight: 600;
 }
 
 
@@ -94,7 +103,7 @@ input, textarea {
   font-size: 50px;
   font-weight: bold;
 
-  color: #707070;
+  color: #404040;
   text-transform: capitalize;
 }
 
@@ -146,6 +155,11 @@ button {
   background-image: url("images/shapes/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+
+  padding: 64px;
+
+  font-size: 20px;
+  line-height: 30px;
 }
 
 

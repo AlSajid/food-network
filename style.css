@@ -1,4 +1,4 @@
-/*
+/* fonts---
 font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
@@ -53,7 +53,11 @@ button {
   background-image: linear-gradient(90deg, #fba24f, #ff1e1e);
 }
 
-/* layout related */
+/* layout & design */
+
+.shadow {
+  box-shadow: 0px 0px 10px #000000;
+}
 
 .highlighted {
   color: coral;
@@ -113,20 +117,18 @@ button {
   line-height: 32px;
 }
 
-/* titles */
+/* texts */
 
 #top-title {
   font-family: "Montserrat", sans-serif;
   font-size: 60px;
   font-weight: 700;
-
   color: #575757;
 }
 
 .title {
   font-size: 50px;
   font-weight: bold;
-
   color: #404040;
   text-transform: capitalize;
 }
@@ -134,11 +136,11 @@ button {
 .description {
   font-weight: 500;
   font-size: 20px;
-
   color: #606060;
   line-height: 32px;
 }
 
+/* Sections */
 #recipes {
   display: block;
   padding-top: 32px;
@@ -173,22 +175,20 @@ button {
   line-height: 40px;
 }
 
-.shadow {
-  box-shadow: 0px 0px 10px #000000;
-}
+
 
 /* stats */
 
 #stats {
   margin: 10%;
   display: flex;
-
   border-radius: 20px;
 }
 
 #stats div {
   padding: 32px 0 64px 0;
   margin: auto;
+
   display: inline;
 }
 
